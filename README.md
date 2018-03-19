@@ -18,10 +18,9 @@ pip3 install openpyxl
 Then we need hazm module.install it by 
 pip3 install hazm
 
-```
 
 
-## Running project
+### Running project
 word map :
 you just need to set file name in main.py to find word maps.
 then for comparing number of words in chats run word_map.py
