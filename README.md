@@ -17,13 +17,20 @@ then you need to install openpyxl module by this command:
 pip3 install openpyxl
 Then we need hazm module.install it by 
 pip3 install hazm
+for generating wordmap you need to install wordcloud module bt commands bellow:
+sudo apt-get install python3-dev
+sudo yum install -y python34-devel
+but you must install python tkinter first:
+sudo apt-get install python-tk
+**this command are in ubuntu because hazm module install on ubuntu easily**
+
 
 
 
 ### Running project
 word map :
 you just need to set file name in main.py to find word maps.
-then for comparing number of words in chats run word_map.py
+then for comparing number of words in chats and drow word map run word_map.py
 
 
 ###  code
@@ -32,12 +39,12 @@ we remove them by cleaning function.
 this function writes cleaned chats in new file. its name is auther_cleaned.txt
 Then we have hazm function that at first modify spaces between words.
 also tokenize word and delete unnecessary words and delete plural signs and etc by filtering function.
-then writes them to auther_tokenized.
-** this chats are just example and maybe find better chats next.**
+then writes them to auther_tokenized. this file have words and their number of repeatation
+we have wordmap  file that has wordmap_genarator function that generaets graphical word map of the file.
+**this chats are just example and maybe find better chats next.**
 
 ## to do
 write edit distance function for words in word map.
-show graphical word map.
 text clasiffication
 ## Authors
 
