@@ -27,14 +27,14 @@ sudo apt-get install python-tk
 
 
 
-### Running project
+#### Running project
 word map :
 you just need to set file name in main.py to find word maps.
 then for comparing number of words in chats and drow word map run word_map.py
 **in total doc I use this web site fore generating wordmap: https://worditout.com/word-cloud/create**
 
 
-###  code
+#####  code
 when you get telegram chats txt file from that extention , it has authers name id and dates.
 we remove them by cleaning function.
 this function writes cleaned chats in new file. its name is auther_cleaned.txt
@@ -44,10 +44,10 @@ then writes them to auther_tokenized. this file have words and their number of r
 we have wordmap  file that has wordmap_genarator function that generaets graphical word map of the file.
 **this chats are just example and maybe find better chats next.**
 
-## to do
+###### to do
 write edit distance function for words in word map.
 text clasiffication
-## Authors
+####### Authors
 
 * **by Mehraveh Ahmadi** 
 
