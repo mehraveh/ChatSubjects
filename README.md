@@ -55,7 +55,7 @@ movie_reviews_model.vw : our trained file
 
  **input file should be like this : " 1 | hi 
                                       -1 | hellow
-                                       1 | how are u" **
+                                       1 | how are u"**
                                        
  then we create test file like input file format and run it by this command:
  
