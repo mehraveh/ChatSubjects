@@ -33,6 +33,7 @@ word map :
 you just need to set file name in main.py to find word maps.
 then for comparing number of words in chats and drow word map run word_map.py
 **in total doc I use this web site fore generating wordmap: https://worditout.com/word-cloud/create**
+
 in new phease we have naviie bayes code with smoothing and without it
 also calculate precision and recall.
 
