@@ -61,6 +61,7 @@ movie_reviews_model.vw : our trained file
  movie_reviews_valid.vw : our test file
  
  movie_valid_pred.txt : our out put file with predictions .thats like this:
+ 
  -0.067254
 1.778347
 -0.250602
