@@ -36,10 +36,13 @@ then for comparing number of words in chats and drow word map run word_map.py
 in new phease we have naviie bayes code with smoothing and without it
 also calculate precision and recall.
 
-**our precision withtout smoothing was : 0.61
-our recall  withtout smoothing was : 0.006
-our precision with smoothing was : 0.68
-our recall  witht smoothing was : 0.007**
+**our precision withtout smoothing was : 0.61**
+
+**our recall  withtout smoothing was : 0.006**
+
+**our precision with smoothing was : 0.68**
+
+**our recall  witht smoothing was : 0.007**
 
 then we have vowpal wabbit commands.
 At first we must train our data by this command:
@@ -77,12 +80,17 @@ movie_reviews_model.vw : our trained file
  for example we test n = 1 ,2 ,3 ,4 ,5 ,6 
  and calculate accurecy. the result is that:
  
- **1:0.6936842105263158
- 2: 0.6978947368421052
- 3: 0.6989473684210527
- 4: 0.7021052631578948
- 5: 0.7042105263157895
- 6: 0.6989473684210527**
+ **1:0.6936842105263158**
+ 
+ **2: 0.6978947368421052**
+ 
+ **3: 0.6989473684210527**
+ 
+ **4: 0.7021052631578948**
+ 
+ **5: 0.7042105263157895**
+ 
+ **6: 0.6989473684210527**
  
  you see that 5-gram is the best for our data.
  
